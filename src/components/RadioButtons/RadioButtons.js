@@ -3,7 +3,6 @@ import { memo } from "react";
 import styles from "../ToastPlayground/ToastPlayground.module.css";
 
 function RadioButtons({ id, buttonOptions, value, setValue }) {
-  console.log(value);
   return (
     <>
       <div className={styles.label}>Variant</div>

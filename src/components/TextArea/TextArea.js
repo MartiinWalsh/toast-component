@@ -3,7 +3,6 @@ import { memo } from "react";
 import styles from "../ToastPlayground/ToastPlayground.module.css";
 
 function TextArea({ input, setInput, label }) {
-  console.log(input);
   return (
     <>
       <label
